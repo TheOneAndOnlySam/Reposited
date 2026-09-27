@@ -1,0 +1,25 @@
+investment = int(input("Enter investment amount: "))
+while investment <=0 or investment >= 50000:
+  print("Invalid investment. Enter an amount greater than 0 and less than 50,000.")
+  investment = int(input("Enter investment amoount:"))
+  interest_rate = int(input("Enter yearly interest rate as a percent: "))
+years = int(input("Enter investment duration in years: "))
+while years <=0:
+  print("Invalid duration. Enter a value greater than zero."))
+  years = int(input("Enter investment duration in years: "))
+months = years * 12
+monthly_rate = interest_rate / 12 / 100
+total = 0
+for month in range (1, months + 1):
+  total += investment
+interest = round(total * monthly_rate, 2)
+total += interest
+if month % 12 == 0:
+  current_year = month // 12
+  print(f"year {current year}: ${total:.2f}")
+total += interest
+print("Investment summary")
+print(f"years{years}")
+print(f"Yearly interest rate: {interest_rate}%")
+print(f"monthly investment amount: ${investment:.2f}")
+print(f"Total investment after compounding: ${total.2f}")
