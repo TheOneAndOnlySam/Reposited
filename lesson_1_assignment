@@ -1,0 +1,11 @@
+"test"
+myname = "Sammamablam Smam the 17th"
+>>> 55=23
+>>> 22+23
+>>> 55==23
+>>> 55=/=34
+>>> 55!=34
+>>> # learned that "!=" means "not equal" or "does not equal" in Python
+>>> # Hashtag is python's version of the "//" in HTML to create non-code notes.
+>>> #Hello, self
+>>> print ("completed by THE SAM")
